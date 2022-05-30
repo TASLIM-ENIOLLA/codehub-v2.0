@@ -316,6 +316,7 @@ const Footer = ({year}) => {
                                             method: 'POST'
                                         })
                                         const {type, message} = await req.json()
+                                        console.log(type, message)
         
                                         formResponse({
                                             visible: true,
@@ -411,6 +412,7 @@ const Contact = ({_ref}) => {
                                     method: 'POST'
                                 })
                                 const {type, message} = await req.json()
+                                console.log(type, message)
                                 setIsMessageSending(false)
 
                                 formResponse({
