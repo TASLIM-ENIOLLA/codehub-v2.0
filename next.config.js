@@ -1,8 +1,8 @@
 // next.config.js
-module.exports = {
-    compiler: {
-      removeConsole: {
-        exclude: ['error'],
-      },
-    },
-}
+// module.exports = {
+//     compiler: {
+//       removeConsole: {
+//         exclude: ['error'],
+//       },
+//     },
+// }
